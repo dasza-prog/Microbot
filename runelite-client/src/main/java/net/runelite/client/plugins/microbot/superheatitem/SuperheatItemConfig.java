@@ -12,9 +12,12 @@ public interface SuperheatItemConfig extends Config {
             description = "how to set up this plugin",
             position = 0
     )
-    default String GUIDE()
-    {
-        return "Good luck";
+    default String GUIDE() {
+        return "Superheat item worth it from steel smithing\n"
+                + "Please make sure you have:\n"
+                + "1. Staff of fire\n"
+                + "2. Enough Nature rune\n"
+                + "3. Enough ore, and if applicable, enough coal";
     }
 
     @ConfigItem(
